@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, ArrowUpRight, Download } from "lucide-react";
+import { Mail, ArrowUpRight, Download } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { socialLinks, personalInfo } from "@/lib/data";
 
 const Contact = () => {

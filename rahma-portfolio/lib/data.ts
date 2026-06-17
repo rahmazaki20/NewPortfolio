@@ -210,22 +210,3 @@ export const navigationLinks = [
   { name: "Experience", href: "#experience" },
 ];
 
-// export const currentlyLearning: LearningItem[] = [
-//  {
-//   title: "Odoo Development",
-//   description:
-// "Currently learning Python and exploring Odoo development. Building basic ERP applications and gaining foundational knowledge in module customization, business workflows, and system integration." , 
-//  progress: 30,
-//   startedDate: "2025",
-//   icon: Database,
-// } ,
-//  {
-//   title: "AI Automation",
-//   description:
-//     "Currently learning AI automation with n8n, focusing on building automated workflows, connecting APIs, and streamlining processes to improve efficiency and productivity.",
-//   progress: 15,
-//   startedDate: "2025",
-//   icon: Brain,
-// },
-
-// ];
