@@ -41,7 +41,7 @@ export interface Experience {
 export interface SocialLink {
   name: string;
   url: string;
-  icon: LucideIcon;
+  icon: LucideIcon | React.ComponentType<any>;
   color: string;
   description: string;
 }

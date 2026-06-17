@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <section
-      className="min-h-[100svh] w-full flex flex-col justify-end relative pb-16 sm:pb-20 pt-24"
+      className="min-h-svh w-full flex flex-col justify-end relative pb-16 sm:pb-20 pt-24"
       id="top"
     >
       {/* Big editorial name — top left */}

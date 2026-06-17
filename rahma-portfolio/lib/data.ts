@@ -3,15 +3,9 @@ import {
   Code2,
   Layout,
   Database,
-  Github,
   Terminal,
-  Linkedin,
-  Twitter,
-  Cloud,
-  Brain,
-  Cpu,
-  Blocks,
 } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import type {
   Experience,
   PersonalInfo,
@@ -190,14 +184,14 @@ export const socialLinks: SocialLink[] = [
   {
     name: "GitHub",
     url: "https://github.com/rahmazaki",
-    icon: Github,
+    icon: FaGithub,
     color: "group-hover:text-[#333] group-hover:bg-white/90",
     description: "Code repositories",
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/rahmazaki",
-    icon: Linkedin,
+    icon: FaLinkedin,
     color: "group-hover:text-white group-hover:bg-[#0077b5]",
     description: "Professional profile",
   },
