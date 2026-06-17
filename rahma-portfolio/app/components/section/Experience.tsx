@@ -46,7 +46,7 @@ const Experience = () => {
             className="relative space-y-12"
           >
             {/* Timeline line */}
-            <div className="absolute left-8 top-4 bottom-4 w-px bg-gradient-to-b from-zinc-800 via-zinc-700 to-zinc-800 hidden lg:block" />
+            <div className="absolute left-8 top-4 bottom-4 w-px bg-linear-to-b from-zinc-800 via-zinc-700 to-zinc-800 hidden lg:block" />
 
             {experiences.map((experience, index) => (
               <motion.div
@@ -56,7 +56,7 @@ const Experience = () => {
               >
                 <Card
                   gradient
-                  className={`p-0.5 rounded-xl bg-gradient-to-r ${experience.color}`}
+                  className={`p-0.5 rounded-xl bg-linear-to-r ${experience.color}`}
                 >
                   <div className="relative p-8 rounded-xl bg-zinc-900/90 backdrop-blur-xl">
                     <div className="flex flex-col lg:flex-row gap-8">
