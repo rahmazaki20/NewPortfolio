@@ -7,8 +7,6 @@ import Skills from "./components/section/Skills"
 import Projects from "./components/section/Projects"
 import Experience from "./components/section/Experience"
 import Contact from "./components/section/Contact"
-
-// import CurrentlyLearning from "@/app/components/sections/CurrentlyLearning";
 import LoadingSpinner from "@/app/components/ui/LoadingSpinner";
 
 export default function Home() {
@@ -25,20 +23,13 @@ export default function Home() {
         <Suspense fallback={<LoadingSpinner />}>
           <Hero />
         </Suspense>
-
         <div className="space-y-32">
           <Suspense fallback={<LoadingSpinner />}>
             <Skills />
           </Suspense>
-
           <Suspense fallback={<LoadingSpinner />}>
             <Projects />
           </Suspense>
-
-          {/* <Suspense fallback={<LoadingSpinner />}>
-            <CurrentlyLearning />
-          </Suspense> */}
-
           <Suspense fallback={<LoadingSpinner />}>
             <Experience />
           </Suspense>
